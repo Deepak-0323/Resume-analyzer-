@@ -1,0 +1,72 @@
+/* General body styling */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Header and title styling */
+h1 {
+    color: #0d47a1;
+    font-size: 2.5em;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+/* Sidebar styling */
+.st-emotion-cache-1c7y3i9 { /* This class name might change slightly, so check your dev tools */
+    background-color: #f0f2f6;
+}
+
+/* Button styling */
+.stButton>button {
+    background-color: #1e88e5;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #1565c0;
+}
+
+/* Expander styling */
+.streamlit-expanderHeader {
+    background-color: #e3f2fd;
+    color: #0d47a1;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Metric card styling */
+.st-emotion-cache-10q7j35 { /* Check dev tools for this class */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+}
+
+/* Dataframe styling */
+.stDataFrame {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+/* Download link styling */
+a {
+    color: #1e88e5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Warning and Success boxes */
+.st-emotion-cache-13m9f0g { /* Check dev tools for these class names */
+    border-radius: 8px;
+}
